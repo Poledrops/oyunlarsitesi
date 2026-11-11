@@ -2,7 +2,7 @@
 
 <img src="public/logo-mark.webp" alt="Poledrops raven emblem" width="140" />
 
-# Poledrops — Game Studio Website
+# CypnosGames — Game Studio Website
 
 **A cinematic, mobile-first, bilingual (TR / EN) website for an independent game studio — built with React and Vite.**
 
