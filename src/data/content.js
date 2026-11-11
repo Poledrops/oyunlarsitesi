@@ -42,8 +42,8 @@ export const content = {
       en: ['Games written in ', 'shadow', '.'],
     },
     lead: {
-      tr: 'Poledrops, hikâyeyi oynanışın merkezine koyan aksiyon ve RPG oyunları geliştirir. Küllerle kaplı krallıklardan mühürlü zindanlara, siberpunk harabelere uzanan üç dünya, üç hikâye.',
-      en: 'Poledrops builds action and RPG games that put story at the center of play. Three worlds, three stories — from ash-covered kingdoms and sealed dungeons to cyberpunk ruins.',
+      tr: 'CypnosGames, hikâyeyi oynanışın merkezine koyan aksiyon ve RPG oyunları geliştirir. Küllerle kaplı krallıklardan mühürlü zindanlara, siberpunk harabelere uzanan üç dünya, üç hikâye.',
+      en: 'CypnosGames builds action and RPG games that put story at the center of play. Three worlds, three stories — from ash-covered kingdoms and sealed dungeons to cyberpunk ruins.',
     },
     primary: { tr: 'Oyunları keşfet', en: 'Explore our games' },
     secondary: { tr: 'İletişime geç', en: 'Get in touch' },
