@@ -20,7 +20,7 @@ export default function Footer() {
         </nav>
 
         <p className="footer__copy">
-          © {STUDIO.year} {STUDIO.name}. {t(content.footer.rights)}
+          © {STUDIO.year} {STUDIO.brandText || STUDIO.name}. {t(content.footer.rights)}
         </p>
       </div>
     </footer>

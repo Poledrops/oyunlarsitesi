@@ -1,8 +1,13 @@
+import { STUDIO } from './site.js'
+
 // All UI copy of the site, Turkish + English.
+
+// The browser-tab title follows STUDIO.brandText (src/data/site.js).
+const brand = STUDIO.brandText || STUDIO.name
 
 export const content = {
   meta: {
-    title: { tr: 'Poledrops — Oyun Stüdyosu', en: 'Poledrops — Game Studio' },
+    title: { tr: `${brand} — Oyun Stüdyosu`, en: `${brand} — Game Studio` },
     description: {
       tr: 'Poledrops, hikâyeyi merkeze alan bağımsız bir oyun stüdyosu. Aurelia: Ashes of Memory, The Sealed Kingdom ve Poledrops: The Last Collapse.',
       en: 'Poledrops is an independent game studio that puts story at the heart of play. Aurelia: Ashes of Memory, The Sealed Kingdom and Poledrops: The Last Collapse.',

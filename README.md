@@ -168,7 +168,7 @@ npm run dev
 
 | I want to… | Edit |
 | --- | --- |
-| Change the **text next to the logo** (temporary brand name) | `STUDIO.brandText` in [`src/data/site.js`](src/data/site.js) — use `''` to show only the logo |
+| Change the **brand name** (text next to the logo, browser-tab title, footer copyright) | `STUDIO.brandText` in [`src/data/site.js`](src/data/site.js) — use `''` to show only the logo and fall back to the studio name. Also update the static copies in [`index.html`](index.html) (`<title>`, `og:title`, `og:site_name`) and [`public/manifest.webmanifest`](public/manifest.webmanifest), which crawlers read without running JavaScript |
 | Change the studio name, contact e-mail, GitHub link or copyright year | [`src/data/site.js`](src/data/site.js) |
 | Edit **team credits** (producer, tester, …) | `contact.team` in [`src/data/content.js`](src/data/content.js) |
 | Edit headings and other copy in Turkish / English | [`src/data/content.js`](src/data/content.js) |
