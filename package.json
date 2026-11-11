@@ -1,0 +1,29 @@
+{
+  "name": "poledrops-studio-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official website of the Poledrops game studio — a bilingual (TR/EN), mobile-first React site showcasing the studio's games.",
+  "homepage": "https://poledrops.github.io/oyunlarsitesi/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poledrops/oyunlarsitesi.git"
+  },
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.3.0",
+    "vite": "^8.3.8"
+  }
+}
