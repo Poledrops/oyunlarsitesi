@@ -79,8 +79,8 @@ export const content = {
     },
     paragraphs: [
       {
-        tr: 'Poledrops, hikâyeyi oynanışın merkezine koyan bağımsız bir oyun stüdyosudur. Küllerle kaplı krallıklardan mühürlü zindanlara, siberpunk harabelerden hafızasını yitirmiş kahramanlara uzanan dünyalar kuruyoruz.',
-        en: 'Poledrops is an independent game studio that puts story at the heart of play. We build worlds that stretch from ash-covered kingdoms to sealed dungeons, from cyberpunk ruins to heroes who have lost their memories.',
+        tr: 'CypnosGames, hikâyeyi oynanışın merkezine koyan bağımsız bir oyun stüdyosudur. Küllerle kaplı krallıklardan mühürlü zindanlara, siberpunk harabelerden hafızasını yitirmiş kahramanlara uzanan dünyalar kuruyoruz.',
+        en: 'CypnosGames is an independent game studio that puts story at the heart of play. We build worlds that stretch from ash-covered kingdoms to sealed dungeons, from cyberpunk ruins to heroes who have lost their memories.',
       },
       {
         tr: 'Pixel art’tan low-poly izometriğe, her oyunumuzun kendi görsel dili ve ritmi var. Ortak noktaları ise zorlayıcı dövüşler, bulmaya değer sırlar ve oyuncuya duyulan saygı.',
