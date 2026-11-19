@@ -86,4 +86,47 @@ export const Expand = (props) => (
   </svg>
 )
 
+// Brand glyphs are filled (not stroked) so they stay recognisable at small sizes.
+const brand = { ...base, fill: 'currentColor', stroke: 'none' }
+
+export const XIcon = (props) => (
+  <svg {...brand} {...props}>
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+  </svg>
+)
+
+export const Instagram = (props) => (
+  <svg {...base} {...props}>
+    <rect x="3" y="3" width="18" height="18" rx="5" />
+    <circle cx="12" cy="12" r="4" />
+    <circle cx="17.5" cy="6.5" r="0.6" fill="currentColor" />
+  </svg>
+)
+
+export const TikTok = (props) => (
+  <svg {...brand} {...props}>
+    <path d="M19.589 6.686a4.793 4.793 0 0 1-3.77-4.245V2h-3.445v13.672a2.896 2.896 0 0 1-5.201 1.743 2.897 2.897 0 0 1 3.185-4.514V9.4a6.34 6.34 0 0 0-5.34 10.66 6.34 6.34 0 0 0 10.92-4.4V8.74a8.2 8.2 0 0 0 4.8 1.54V6.84a4.8 4.8 0 0 1-1.149-.154z" />
+  </svg>
+)
+
+export const Facebook = (props) => (
+  <svg {...brand} {...props}>
+    <path d="M13.5 21.95v-8.2h2.76l.41-3.2H13.5V8.5c0-.93.26-1.56 1.59-1.56h1.7V4.08A22.6 22.6 0 0 0 14.31 4C11.87 4 10.2 5.49 10.2 8.22v2.33H7.43v3.2h2.77v8.2z" />
+  </svg>
+)
+
+export const LinkedIn = (props) => (
+  <svg {...brand} {...props}>
+    <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h3.96V21H3zM9.5 9.75h3.8v1.54h.05c.53-1 1.82-2.06 3.75-2.06 4.01 0 4.75 2.64 4.75 6.07V21h-3.96v-4.9c0-1.17-.02-2.67-1.63-2.67-1.63 0-1.88 1.27-1.88 2.59V21H9.5z" />
+  </svg>
+)
+
+export const socialIcons = {
+  x: XIcon,
+  instagram: Instagram,
+  tiktok: TikTok,
+  facebook: Facebook,
+  linkedin: LinkedIn,
+}
+
 export const icons ={ book: Book, sword: Sword, layers: Layers }

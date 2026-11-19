@@ -2,6 +2,7 @@ import { useLang } from '../i18n.jsx'
 import { content } from '../data/content.js'
 import { STUDIO } from '../data/site.js'
 import Brand from './Brand.jsx'
+import Socials from './Socials.jsx'
 
 export default function Footer() {
   const { t } = useLang()
@@ -18,6 +19,8 @@ export default function Footer() {
             </a>
           ))}
         </nav>
+
+        <Socials className="socials--footer" label={t(content.contact.socialsTitle)} />
 
         <p className="footer__copy">
           © {STUDIO.year} {STUDIO.brandText || STUDIO.name}. {t(content.footer.rights)}

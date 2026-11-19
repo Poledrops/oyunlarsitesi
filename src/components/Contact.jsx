@@ -4,6 +4,7 @@ import { games } from '../data/games.js'
 import { STUDIO } from '../data/site.js'
 import { ArrowUpRight, Github, Mail } from './Icons.jsx'
 import Reveal from './Reveal.jsx'
+import Socials from './Socials.jsx'
 
 export default function Contact() {
   const { t } = useLang()
@@ -30,6 +31,11 @@ export default function Contact() {
               </a>
             </div>
             <p className="contact__mail">{STUDIO.email}</p>
+
+            <div className="contact__follow">
+              <h3 className="contact__follow-title">{t(contact.socialsTitle)}</h3>
+              <Socials label={t(contact.socialsTitle)} />
+            </div>
 
             <div className="team">
               <h3 className="team__title">{t(contact.team.title)}</h3>

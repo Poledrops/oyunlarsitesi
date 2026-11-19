@@ -131,6 +131,7 @@ export const content = {
     },
     email: { tr: 'E-posta gönder', en: 'Send an email' },
     github: { tr: 'GitHub’da takip et', en: 'Follow on GitHub' },
+    socialsTitle: { tr: 'Bizi takip edin', en: 'Follow us' },
     sitesTitle: { tr: 'Oyun siteleri', en: 'Game sites' },
     // Credits shown under the contact details. Add or remove members freely.
     team: {
