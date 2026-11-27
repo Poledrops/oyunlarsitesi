@@ -186,6 +186,71 @@ export const games = [
       },
     ],
   },
+  {
+    id: 'tube-touch',
+    index: '04',
+    title: 'Tube Touch',
+    short: 'Tube Touch',
+    url: 'https://busterbey.github.io/TubeTouchSite/index.html',
+    accent: '#81f2d3',
+    accentRgb: '129, 242, 211',
+    genre: { tr: 'Mobil Renk Eşleştirme', en: 'Mobile Color-Matching Puzzle' },
+    tagline: {
+      tr: 'Düşen topları doğru renkteki tüplere yönlendir.',
+      en: 'Guide the falling balls into the tubes of the matching color.',
+    },
+    description: {
+      tr: 'Tube Touch’ta düşen topları doğru tüplere yönlendirirsin. Renk sırasını takip et, katmanları doldur ve hızlanan bölümlerde ritmini koru. 150 bölüm ve beş oyun modu seni bekliyor.',
+      en: 'In Tube Touch, you guide falling balls into the right tubes. Follow the color sequence, fill the layers and keep your rhythm as the levels speed up. 150 levels and five game modes await you.',
+    },
+    counts: { levels: 150, bosses: 0 },
+    stats: [
+      { value: 150, label: { tr: 'Bölüm', en: 'Levels' } },
+      { value: 5, label: { tr: 'Oyun modu', en: 'Game modes' } },
+      { value: 2, label: { tr: 'Dil', en: 'Languages' } },
+    ],
+    features: [
+      {
+        tr: 'Beş oyun modu: Klasik, Sonsuz, Zamana Karşı, Günlük Mücadele ve Kusursuz',
+        en: 'Five game modes: Classic, Endless, Time Attack, Daily Challenge and Flawless',
+      },
+      {
+        tr: 'Güçlerle akışı yavaşlat, kalkanla bir hatayı önle ya da can ekle',
+        en: 'Slow the flow, block a mistake with a shield or add a life with power-ups',
+      },
+      {
+        tr: 'Oyun içi altınla top, tüp, arka plan ve iz görünümleri aç',
+        en: 'Unlock ball, tube, background and trail looks with in-game gold',
+      },
+      {
+        tr: 'Ayarlardan açılan renk sembolleriyle topları şekillerinden de tanı',
+        en: 'Turn on color symbols in the settings to recognize balls by shape too',
+      },
+    ],
+    status: 'soon',
+    platform: { tr: 'Android · Google Play', en: 'Android · Google Play' },
+    gallery: [
+      {
+        src: img('tube-touch/hero.webp'),
+        alt: {
+          tr: 'Tube Touch’ın 150. bölümünde renkli toplar tüplere doğru düşüyor',
+          en: 'Colored balls falling toward the tubes in level 150 of Tube Touch',
+        },
+      },
+      {
+        src: img('tube-touch/main-menu.webp'),
+        alt: { tr: 'Tube Touch ana menüsü, yeşil Oyna düğmesiyle', en: 'Tube Touch main menu with the green Play button' },
+      },
+      {
+        src: img('tube-touch/level-map.webp'),
+        alt: { tr: 'Tube Touch bölüm haritası: renkli yollar ve kilitli bölümler', en: 'Tube Touch level map with colored paths and locked levels' },
+      },
+      {
+        src: img('tube-touch/layered-tubes.webp'),
+        alt: { tr: 'Tube Touch’ta 41. bölümde katmanlı cam tüpler', en: 'Layered glass tubes on level 41 of Tube Touch' },
+      },
+    ],
+  },
 ]
 
 export const totals = {
